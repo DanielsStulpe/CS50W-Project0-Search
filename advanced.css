@@ -1,0 +1,54 @@
+.container {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+label {
+    font-size: 15px;
+    width: 210px; 
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 25px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+    
+input[type="submit"] {
+    background-color: DodgerBlue;
+    color: white;
+    height: 38px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(135, 189, 243);
+}
+
+.other {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color:SlateBlue;
+}
+
+a:hover {
+    color:rgb(129, 95, 129);
+}
